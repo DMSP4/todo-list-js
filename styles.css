@@ -15,6 +15,49 @@ html, body {
 .todo-container {
     width: 80%;
     height: 60%;
+    padding: 50px;
     background-color: #0b1174;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.todo-input {
+    width: calc(100% - 80px);
+    height: 30px;
+    outline-color: white;
     
+}
+
+.add-todo {
+    height: 36px;
+    background-color: #e93333;
+    color: white;
+    border: none;
+
+    cursor: pointer;
+}
+
+.todo-list {
+    list-style-type: none;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #0b1174;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.delete-btn {
+    height: 25px;
+    background-color: #e5e91c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
